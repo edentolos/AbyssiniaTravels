@@ -24,10 +24,11 @@ $user = $_SESSION['user'];
 <html>
 <html lang="en">
 <head>
-  <title>Pay</title>
-<meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="shortcut icon" type="image/x-icon" href="https://lh3.googleusercontent.com/-HtZivmahJYI/VUZKoVuFx3I/AAAAAAAAAcM/thmMtUUPjbA/Blue_square_A-3.PNG" />
+  <title>Abyssinia Flights</title>
+     <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+  <link rel="shortcut icon" href="includes/mylogo.png" type="image/x-icon">
   <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
@@ -51,7 +52,7 @@ $user = $_SESSION['user'];
       <div class="collapse navbar-collapse" id="myNavbar">
         <ul class="nav navbar-nav navbar-right">
                     <li id = "cart">
-                        <a class="navbar-brand" href="cartshow.php"><span class="glyphicon glyphicon-shopping-cart"></span> Shopping Cart</a>
+                        <a class="navbar-brand" href="cartshow.php"><span class="glyphicon glyphicon-shopping-cart"></span> Cart</a>
                     </li>           
           <li class="dropdown" id = "new">
             <a class="dropdown-toggle" data-toggle="dropdown" href="#"><span class="glyphicon glyphicon-user"> Sign in&nbsp;</span><span class="caret"></span>
@@ -73,7 +74,7 @@ $user = $_SESSION['user'];
             </ul>
           </li>
             <li class="dropdown" id = "old">
-            <a class="dropdown-toggle" data-toggle="dropdown" href="#" ><span class="glyphicon glyphicon-user" id="wuser">Welcom!</span>
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#" ><span class="glyphicon glyphicon-user" id="wuser">Welcome!</span>
             <span class="caret"></span>
             </a>
             <ul class="dropdown-menu multi-level" role="menu" aria-labelledby="dropdownMenu">
@@ -86,8 +87,8 @@ $user = $_SESSION['user'];
     </div>
   </nav>
 <div class="jumbotron text-center">
-        <h1>Airprice.com</h1> 
-        <p>We specialize in your air plan!</p> 
+        <h1>Abyssinia Flights</h1> 
+        <p>Time to Fly!</p> 
 </div>
 
 
@@ -97,7 +98,7 @@ $user = $_SESSION['user'];
 
     </div>
     <div class="col-sm-8 text-left"> 
-      <h1>Payment Finish</h1>
+      <h1>Payment is Done. Thanks for choosing Abyssinia Travels. Enjoy your trip!</h1>
       <div><img src="smile.jpg" alt="smile" id="smile">
       </div>
 
@@ -130,7 +131,7 @@ mysqli_close($con);
         <a href="#signUpPage" title="To Top">
             <span class="glyphicon glyphicon-chevron-up"></span>
         </a>
-        <p>Airprice.com</p>     
+        <p>Abyssinia Flights</p>     
 </footer>
 
 

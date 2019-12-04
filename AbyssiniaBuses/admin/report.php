@@ -14,7 +14,7 @@
                     <div class="col-lg-12">
                         <h1 class="page-header">
                             Welcome To Admin
-                            <small><?php echo ucfirst($_SESSION['s_username']);   ?></small>
+                            <small><?php echo ucfirst($_SESSION['user']);   ?></small>
                         </h1>
                         <br><br>
                         <h2>REPORT:</h2>

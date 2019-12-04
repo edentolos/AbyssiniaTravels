@@ -109,4 +109,3 @@ header("Location: index.php");
     </div>
         <hr>
 
-<?php include "includes/footer.php"; ?>

@@ -4,19 +4,19 @@
 // $_SESSION['s_firstname'] = null;
 // $_SESSION['s_lastname'] = null;
 // $_SESSION['s_role'] = null;
+
 ?>
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
 
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
-
-    <title>Projectworlds Bus - Book Your Bus Ticket Online</title>
+    <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+  <link rel="shortcut icon" href="img/mylogo.png" type="image/x-icon">
+  
+  <title>Abyssinia Hotels</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">

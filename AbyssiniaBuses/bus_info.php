@@ -211,14 +211,14 @@
 
                                         $curr_name = $arr[$i];
                                         $curr_age = $arr1[$i];
-                                        $user_id = $_SESSION['user'];
+                                        $user_id = $_SESSION['s_id'];
 
                                         $query = "INSERT INTO orders(bus_id, user_id, user_name, user_age, source, destination,date,cost) VALUES($selected_bus, $user_id , '$curr_name', '$curr_age', '$source', '$destination', now(),$cost)";
 
                                         $query_seat_update = "UPDATE posts SET available_seats = $available_seats + $count WHERE post_id = $bus_id";
 
                                         //echo $arr[$i];
-                                        //echo $_SESSION['user'];
+                                        //echo $_SESSION['s_id'];
                                         $update_seats_available = mysqli_query($connection,$query_seat_update);
                                         $booking_query = mysqli_query($connection,$query);
                                         if (!$booking_query) {

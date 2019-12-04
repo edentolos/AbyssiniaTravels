@@ -8,6 +8,16 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
+                <div class="menu-logo">
+            <div class="navbar-brand">
+                <span class="navbar-logo">
+                    <a href="http://index.php">
+                        <img src="img/mylogo.png" title="" style="height: 3.8rem;">
+                    </a>
+                </span>
+                
+            </div>
+        </div>
                 <a class="navbar-brand" href="index.php">Abyssinia Hotels</a>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->

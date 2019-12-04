@@ -111,8 +111,7 @@ function fnSearch()
             
 			<li class="active"><a href="room.php"><i class="icon-key"></i> Hotels</a></li>
 			
-			<li><a href="http://www.hotel.gamboh.com.my"><i class="icon-share"></i> Booking Page</a></li>
-          </ul>
+			
 
         </div>
         <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main" id="roomdetail">
@@ -126,7 +125,7 @@ function fnSearch()
                   <th>Hotel Name</th>
                   <th>Thumbnail</th>
                   <th>Total Room</th>
-				  <th>Room Size</th>
+				  <th>City</th>
                   <th>View</th>
 			      <th>Occupancy</th>
                   <th>Rate</th>
@@ -159,7 +158,7 @@ function fnSearch()
             </table>
           </div>
 		 
-		  <button type="button" class="btn" id="addroom">Add Room</button>
+		  <button type="button" class="btn" id="addroom">Add Hotel</button>
         </div>
 		<div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main" id="formnew" style="display:none;">
 		<button type="button" class="btn" id="back">Back</button>
@@ -177,7 +176,7 @@ function fnSearch()
 						<input type="text" class="form-control" name="occupancy" id="occupancy" placeholder="max number of occupant">
 					  </div>
 					  <div class="form-group">
-						<label for="size">Room Size</label>
+						<label for="size">City</label>
 						<input type="text" class="form-control"  name="size" id="size" value="sqft" placeholder="Please write sqft or metre square: example: 250 sqft">
 					  </div>
 					  <div class="form-group">

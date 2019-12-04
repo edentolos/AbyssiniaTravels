@@ -9,11 +9,23 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
+                <div class="menu-logo">
+            <div class="navbar-brand">
+                <span class="navbar-logo">
+                    <a href="http://index.php">
+                        <img src="images/mylogo.png" title="" style="height: 3.8rem;">
+                    </a>
+                </span>
+                
+            </div>
+        </div>
                 <a class="navbar-brand" href="index.php" style="background-color: #800020">Abyssinia Buses</a>
             </div>
+            
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
+
                     <?php 
 
                         $query = "SELECT *  FROM  categories";

@@ -10,10 +10,11 @@ session_start();
 <html>
 <html lang="en">
 <head>
-  <title>Shopping cart</title>
-<meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="shortcut icon" type="image/x-icon" href="https://lh3.googleusercontent.com/-HtZivmahJYI/VUZKoVuFx3I/AAAAAAAAAcM/thmMtUUPjbA/Blue_square_A-3.PNG" />
+  <title>Cart</title>
+     <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+  <link rel="shortcut icon" href="includes/mylogo.png" type="image/x-icon">
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
@@ -37,7 +38,7 @@ session_start();
             <div class="collapse navbar-collapse" id="myNavbar">
                 <ul class="nav navbar-nav navbar-right"> 
                     <li id = "cart">
-                        <a class="navbar-brand" href="cartshow.php"><span class="glyphicon glyphicon-shopping-cart"></span> Shopping Cart</a>
+                        <a class="navbar-brand" href="cartshow.php"><span class="glyphicon glyphicon-shopping-cart"></span> Cart</a>
                     </li>                   
                     
 
@@ -74,7 +75,10 @@ session_start();
         </div>
     </nav>
 
-
+<div class="jumbotron text-center">
+        <h1>Abyssinia Flights</h1> 
+        <p>Time to fly!</p> 
+</div>
 
 <div class="container-fluid text-center">    
   <div class="row content">
@@ -82,7 +86,7 @@ session_start();
 
     </div>
     <div class="col-sm-8 text-left"> 
-      <h1>Shopping cart</h1>
+      <h1>Cart</h1>
 
 
 
@@ -197,8 +201,8 @@ $rowcount = mysqli_num_rows($result);
     echo " <form action='pay.php' method='post'>";
     echo "<div class='row'>
 			  <div class='col-sm-4'></div>
-			  <div class='col-sm-4'><p class='lead'>Total: <span id='total'>$".$total."</span></p></div>
-			  <div class='col-sm-4'><button type='submit' class='btn btn-primary'>Pay</button></div>
+			  <div class='col-sm-4'><p class='lead'>Total: <span id='total'>₹".$total."</span></p></div>
+			  <div class='col-sm-4'><button type='submit' class='btn btn-primary' style='background-color: #800020'>Pay</button></div>
 			</div>";
     
     echo "</form>";

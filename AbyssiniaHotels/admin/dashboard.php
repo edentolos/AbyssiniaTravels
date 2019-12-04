@@ -24,7 +24,7 @@ header("location: index.htm");
     <meta name="author" content="">
  
 
-    <title>Booking System</title>
+    <title>Abyssinia Hotel Dashboard</title>
 
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -141,9 +141,9 @@ function more3()
           <ul class="nav nav-sidebar">
             <li class="active"><a href="dashboard.php"><i class="icon-gauge"></i> Dashboard <span class="sr-only">(current)</span></a></li>
             
-			<li><a href="room.php"><i class="icon-key"></i> Rooms</a></li>
+			<li><a href="room.php"><i class="icon-key"></i> Hotels</a></li>
 			
-			<li><a href="http://www.hotel.gamboh.com.my"><i class="icon-share"></i> Booking Page</a></li>
+			
           </ul>
 
         </div>
@@ -194,7 +194,7 @@ function more3()
 						echo "                                        ".$row2['total_row']."\n";
 						echo "                                    </h3>\n";
 						echo "                                    <p>\n";
-						echo "                                        Booking with Pending Payment\n";
+						echo "                                        Booking Made through Abyssinia\n";
 						echo "                                    </p>\n";
 						echo "                                </div>\n";
 						echo "                                <div class=\"icon\">\n";
@@ -208,31 +208,7 @@ function more3()
 						
 						}
 					}
-					if(mysqli_num_rows($re3) > 0)
-					{
-						while($row3 = mysqli_fetch_array($re3))
-						{
-						echo "					<div class=\"col-xs-4\">\n";
-						echo "							<div class=\"small-box bg-yellow\">\n";
-						echo "                                <div class=\"inner\">\n";
-						echo "                                    <h3>\n";
-						echo "                                        ".$row3['total_row']."\n";
-						echo "                                    </h3>\n";
-						echo "                                    <p>\n";
-						echo "                                        Paid Booking\n";
-						echo "                                    </p>\n";
-						echo "                                </div>\n";
-						echo "                                <div class=\"icon\">\n";
-						echo "                                    <i class=\"ion ion-person-add\"></i>\n";
-						echo "                                </div>                                <a href=\"#\" onClick='more3();' class=\"small-box-footer\">
-                                    View Details <i class=\"fa fa-arrow-circle-right\"></i>
-                                </a>\n";
-						echo "\n";
-						echo "                            </div>			\n";
-						echo "					</div>";
-						
-						}
-					}
+
 					
 					?>
 
@@ -297,8 +273,8 @@ function more3()
 						</div>	
 		
 						<div class="col-xs-6" id="statistics" style="display:block;">
-						<h4 class="sub-header">Booking Made</h4>
-								<div id="bookingstat" style="height: 250px;"></div>
+						<h4 class="sub-header"></h4>
+								<div id="" style="height: 250px;"></div>
 						</div>
 						
 				</div>
@@ -312,7 +288,7 @@ function more3()
 									  <th>Booking No.</th>
 									  <th>Check In</th>
 									  <th>Check Out</th>
-									  <th>Room</th>
+									  <th>Hotels</th>
 									  <th>Guests</th>
 									  <th>Total Amount</th>
 									  <th>Deposit</th>
@@ -339,7 +315,7 @@ function more3()
 									  <th>Booking No.</th>
 									  <th>Check In</th>
 									  <th>Check Out</th>
-									  <th>Room</th>
+									  <th>Hotels</th>
 									  <th>Guests</th>
 									  <th>Total Amount</th>
 									  <th>Deposit</th>
@@ -391,7 +367,7 @@ function more3()
 									  <th>Booking No.</th>
 									  <th>Check In</th>
 									  <th>Check Out</th>
-									  <th>Room</th>
+									  <th>Hotels</th>
 									  <th>Guests</th>
 									  <th>Total Amount</th>
 									  <th>Deposit</th>

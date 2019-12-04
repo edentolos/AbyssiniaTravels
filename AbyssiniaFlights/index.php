@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>Abyssinia Company</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="shortcut icon" type="image/x-icon" href="https://lh3.googleusercontent.com/-HtZivmahJYI/VUZKoVuFx3I/AAAAAAAAAcM/thmMtUUPjbA/Blue_square_A-3.PNG" />
+	<title>Abyssinia Flights</title>
+     <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+  <link rel="shortcut icon" href="includes/mylogo.png" type="image/x-icon">
+  
 	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
@@ -29,7 +31,7 @@
 				<ul class="nav navbar-nav navbar-right">
 					
 					<li id = "cart">
-						<a class="navbar-brand" href="cartshow.php"><span class="glyphicon glyphicon-shopping-cart"></span> Shopping Cart</a>
+						<a class="navbar-brand" href="cartshow.php"><span class="glyphicon glyphicon-shopping-cart"></span> Cart</a>
 					</li>
 
 
@@ -239,10 +241,10 @@
 			  </div> 
 			  <div class="btn-group btn-group-justified">	
 				<div class="btn-group">
-					<button type="submit" class="btn btn-success">Submit</button>
+					<button type="submit" class="btn btn-success" style="background-color: #800020">Submit</button>
 				</div>
 				<div class="btn-group">
-					<button type="reset"  class="btn btn-info" value="Reset">Reset</button>
+					<button type="reset"  class="btn btn-info" value="Reset" style="background-color: #800020">Reset</button>
 				</div>
 		  	  </div>
 			</form>
@@ -258,7 +260,7 @@
 			 <br>
 			<div class="row">   
 			  <div class="col-sm-6">
-			  <button type="submit" class="btn btn-primary">Show ALL</button>
+			  <button type="submit" class="btn btn-primary" style="background-color: #800020">Show ALL</button>
 			  </div>
 			</div> 
 			</form>

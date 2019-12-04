@@ -1,19 +1,29 @@
 <?php include"db.php" ?>
     <nav class="navbar navbar-inverse navbar-fixed-top" style="background-color: #800020;" role="navigation">
         <div class="container">
+
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="dropdown dropright">
-                <button type="button" class="btn-group" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                     <span class="sr-only">Toggle navigation</span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
+                <div class="menu-logo">
+            <div class="navbar-brand">
+                <span class="navbar-logo">
+                    <a href="http://localhost/AbyssiniaTravel/index.php">
+                        <img src="assets/images/mylogo.png" title="" style="height: 3.8rem;">
+                    </a>
+                </span>
+                
+            </div>
+        </div>
                 <a class="dropdown dropright" href="index.php">Abyssinia Travels</a>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav">
+      
+
                     <?php 
 
                         $query = "SELECT *  FROM  categories";
@@ -32,14 +42,14 @@
                     if(isset($_SESSION['user']))  {
                             ?>
                             <li>
-                                <a href="admin/index.php"><i class="fa fa-fw fa-child"></i>Admin</a>
+                                <a href="admin.php"><i class="fa fa-fw fa-child"></i>Admin</a>
                             </li>
-                    }
+                    
                     <?php } ?>
 
                     <li>
                         <a href="registration.php"><i class="fa fa-fw fa-desktop"></i>Register Here!</a>
-                      <li>  <a href="http://localhost/AbyssiniaTravel/customersignin.html"><i class="fa fa-fw fa-desktop"></i>LOgin Here!</a>
+                      <li>  <a href="http://localhost/AbyssiniaTravel/customersignin.html"><i class="fa fa-fw fa-desktop"></i>Login Here!</a>
                     </li></li>
 
 <!--                     <li>
@@ -63,7 +73,7 @@
                                 echo ucfirst($_SESSION['user']); ?> <b class="caret"></b></a>
                                 <ul class="dropdown-menu">
                                     <li>
-                                        <a href="profile.php"><i class="fa fa-fw fa-user"></i> Profile</a>
+                                        <a href="profile.php"><i class="fa fa-fw fa-user" ></i> Profile</a>
                                     </li>
                                     <li class="divider"></li>
                                     <li>
